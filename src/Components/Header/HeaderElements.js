@@ -16,6 +16,7 @@ font-size: 2rem;
   
   :hover{
     cursor: pointer;
+    color: red;
   }
 `
 export const Chat = styled(AiOutlineWechat)`
@@ -23,6 +24,7 @@ font-size: 2rem;
 
   :hover{
     cursor: pointer;
+    color: red;
   }
 `
 
@@ -31,6 +33,7 @@ font-size: 2rem;
 
   :hover{
     cursor: pointer;
+
   }
 `
 
