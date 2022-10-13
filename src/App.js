@@ -1,15 +1,16 @@
-import Cards from "./Components/Card";
+
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { GlobalStyle } from "./globalStyles";
 import './App.css'
+import Simple from "./Components/Cards";
 
 function App() {
   return (
     <>
     
     <Header />
-    <Cards />
+    <Simple />
     <GlobalStyle />
     <Footer />
     </>

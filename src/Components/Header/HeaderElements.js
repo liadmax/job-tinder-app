@@ -5,7 +5,7 @@ import {CgProfile} from 'react-icons/cg'
 
 
 export const Div = styled.div`
-border-bottom: 3px solid grey;
+border-bottom: 1px solid rgba(220,220,220,0.7);
 display: flex;
 justify-content: space-between;
 
