@@ -33,6 +33,7 @@ export const Wrapper =styled.div`
 
 
 export const Container = styled.div`
+
 margin-top: 0%;
 width: 45vw;
   max-width: 260px;
