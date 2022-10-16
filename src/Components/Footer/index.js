@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
     <Div>
-    <Contact>נשמח לשמוע פידבק על המערכת בבקשה צור קשר</Contact>
+    <Contact> זה הוא דמו נשמח לשמוע פידבק על המערכת בבקשה צור קשר</Contact>
     <DivBtn><Btn>צור קשר</Btn></DivBtn>
     
     </Div>

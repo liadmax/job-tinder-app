@@ -31,16 +31,17 @@ export const Wrapper =styled.div`
     background: linear-gradient(#e66465, #9198e5);
 `
 
-export const H1 =styled.h1`
-font-family: sans-serif, cursive;
-  color: #fff;
-  text-shadow: 0px 0px 60px 0px rgba(0,0,0,0.30);
 
-`
 export const Container = styled.div`
+margin-top: 0%;
 width: 45vw;
   max-width: 260px;
   height: 300px;
+  :hover{
+    cursor: pointer;
+    
+  
+  }
 `
 
 

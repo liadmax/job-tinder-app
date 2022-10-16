@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Div = styled.div`
-padding: 5rem;
-border-top: 2px solid grey;
+padding: 0;
+background-color: #9198e5;
 
 `
 
@@ -25,10 +25,11 @@ justify-content: center;
 width: 4rem;
 height: 3rem;
 border-radius: 12px;
+ background-color: #9198e5;;
 :hover{
     cursor: pointer;
-    color: red;
-    background-color: lightblue;
+    color: blue;
+    background-color: #fff;
 }
 
 `
