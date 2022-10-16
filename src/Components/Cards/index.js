@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 // import TinderCard from '../react-tinder-card/index'
 import TinderCard from 'react-tinder-card'
 import { Wrapper, Container} from './CardsElements'
+import {Link} from 'react-router'
+
 
 
 const db = [
@@ -26,7 +28,15 @@ const db = [
       url: 'https://cdn.pixabay.com/photo/2017/11/14/08/39/cartoon-character-2947794__340.jpg'
     }
   ]
-  
+  function Nav(){
+    console.log('random job generator')
+    return(
+     
+    <>
+      
+      <a href='https://writingexercises.co.uk/random-job-generator.php' />
+    </>)
+  }  
   
 
 function Simple () {
@@ -51,11 +61,16 @@ function Simple () {
       
         {characters.map((character) =>
           <TinderCard className='swipe' key={character.name} onSwipe={(dir) => swiped(dir, character.name)} onCardLeftScreen={() => outOfFrame(character.name)}>
+            
             <Container
+            onClick={Nav}
               style={{ backgroundImage: 'url(' + character.url + ')' }}
               className='card'>
               <h3>{character.name}</h3>
             </Container>
+            
+       
+           
           </TinderCard>
           
         )};

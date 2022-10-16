@@ -21,23 +21,23 @@ import styled from "styled-components";
 
 
 export const Wrapper =styled.div`
- text-align: center;
+flex-direction: column;
+align-items: center;
     display: flex;
-    justify-content: center;
     width: 100vw;
     min-height: 50vh;
-    overflow: hidden;
     background: linear-gradient(#fff, #999);
     background: linear-gradient(#e66465, #9198e5);
 `
-
-
 export const Container = styled.div`
-
 margin-top: 0%;
 width: 45vw;
   max-width: 260px;
   height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
   :hover{
     cursor: pointer;
     
