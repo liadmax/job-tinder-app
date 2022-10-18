@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 // import TinderCard from '../react-tinder-card/index'
 import TinderCard from 'react-tinder-card'
 import { Wrapper, Container} from './CardsElements'
-import {Link} from 'react-router'
 
 
 
@@ -68,16 +67,15 @@ function Simple () {
               className='card'>
               <h3>{character.name}</h3>
             </Container>
-            
-       
-           
           </TinderCard>
           
         )};
       </Wrapper>
     </div>
     
+    
   )
 }
 
-export default Simple
+
+export default Simple;

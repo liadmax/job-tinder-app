@@ -21,6 +21,7 @@ import styled from "styled-components";
 
 
 export const Wrapper =styled.div`
+display: flex;
 flex-direction: column;
 align-items: center;
     display: flex;
@@ -32,12 +33,14 @@ align-items: center;
 export const Container = styled.div`
 margin-top: 0%;
 width: 45vw;
+flex: 1 0 0;
+  overflow-x: hidden;
   max-width: 260px;
   height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
   :hover{
     cursor: pointer;
     
