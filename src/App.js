@@ -3,14 +3,14 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import { GlobalStyle } from "./globalStyles";
 import './App.css'
-import Advanced from "./Components/Cards";
+import Test from "./Components/Card-test";
 import Logo from "./Components/Logo";
 
 function App() {
   return (
     <>
     <Logo />
-    <Advanced />
+    <Test />
     <GlobalStyle />
     <Header />
     <Footer />
